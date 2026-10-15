@@ -1,0 +1,16 @@
+# Vercel project metadata
+.vercel/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependency and tool output
+node_modules/
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini

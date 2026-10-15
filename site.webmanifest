@@ -1,0 +1,9 @@
+{
+  "name": "dawood.sh",
+  "short_name": "dawood.sh",
+  "description": "Dawood's personal website for technical notes, experiments, and curiosities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f1eee5",
+  "theme_color": "#f1eee5"
+}

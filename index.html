@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f1eee5" />
+    <meta name="color-scheme" content="light" />
+
+    <title>dawood.sh — a personal website, eventually</title>
+    <meta
+      name="description"
+      content="Dawood's personal corner for notes on computers, low-level programming, astronomy, experiments, and other unfinished things. Coming soon. Probably."
+    />
+    <link rel="canonical" href="https://dawood.sh/" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="dawood.sh" />
+    <meta property="og:title" content="dawood.sh — a personal website, eventually" />
+    <meta
+      property="og:description"
+      content="Notes, experiments, and other things Dawood finds difficult to leave alone. Coming soon. Probably."
+    />
+    <meta property="og:url" content="https://dawood.sh/" />
+    <meta property="og:image" content="https://dawood.sh/og-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="dawood.sh — a personal website, eventually." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="dawood.sh — a personal website, eventually" />
+    <meta
+      name="twitter:description"
+      content="Notes, experiments, and other things Dawood finds difficult to leave alone. Coming soon. Probably."
+    />
+    <meta name="twitter:image" content="https://dawood.sh/og-card.png" />
+
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "dawood.sh",
+        "url": "https://dawood.sh/",
+        "author": {
+          "@type": "Person",
+          "name": "Dawood",
+          "url": "https://mdawood.dev"
+        },
+        "description": "Dawood's personal website for technical notes, experiments, and curiosities."
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="page-shell">
+      <header class="masthead" aria-label="Site header">
+        <a class="wordmark" href="/" aria-label="dawood dot sh, home">
+          <span>dawood</span><span class="wordmark__suffix">.sh</span>
+        </a>
+        <div class="location">
+          <span aria-hidden="true">~/</span>
+          <span>somewhere between idea and implementation</span>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="intro" aria-labelledby="page-title">
+          <div class="intro__heading">
+            <p class="eyebrow">Personal site · work in progress</p>
+            <h1 id="page-title">
+              a personal website,<br />
+              <em>eventually.</em>
+            </h1>
+          </div>
+
+          <div class="intro__note">
+            <p>
+              A quiet corner for notes on computers, operating systems, hardware,
+              low-level programming, astronomy, and whatever else refuses to leave
+              my head.
+            </p>
+            <p class="aside">Coming soon. Probably.</p>
+          </div>
+        </section>
+
+        <section class="build" aria-labelledby="build-title">
+          <div class="build__meta">
+            <h2 id="build-title">latest build</h2>
+            <span>exit status 1</span>
+          </div>
+
+          <div class="build__output" role="group" aria-label="Latest website build output">
+            <p class="command">
+              <span class="prompt" aria-hidden="true">$</span>
+              <span>./build-personal-website.sh</span>
+            </p>
+            <p class="error">
+              <span class="error__label">error:</span>
+              <span>developer distracted by another side project</span>
+            </p>
+          </div>
+        </section>
+
+        <nav class="elsewhere" aria-label="Elsewhere">
+          <span class="elsewhere__label">In the meantime</span>
+          <a href="https://mdawood.dev" rel="me">
+            <span>the professional version of me</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </nav>
+      </main>
+
+      <footer class="footer">
+        <p>Built with plain HTML, stubbornness, and no estimated ship date.</p>
+        <p class="footer__easter-egg" aria-hidden="true">&lt;!-- view-source encouraged --&gt;</p>
+      </footer>
+    </div>
+  </body>
+</html>

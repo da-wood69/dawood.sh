@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f1eee5"/>
+  <path d="M94 0v630M94 92h1012M94 538h1012" fill="none" stroke="#cbc5b8" stroke-width="2"/>
+  <text x="137" y="71" fill="#1c1c19" font-family="Consolas, monospace" font-size="24" font-weight="700">dawood<tspan fill="#a33a2b">.sh</tspan></text>
+  <text x="137" y="249" fill="#1c1c19" font-family="Georgia, serif" font-size="88" letter-spacing="-4">a personal website,</text>
+  <text x="137" y="340" fill="#a33a2b" font-family="Georgia, serif" font-size="88" font-style="italic" letter-spacing="-4">eventually.</text>
+  <text x="137" y="446" fill="#1c1c19" font-family="Consolas, monospace" font-size="20">$ ./build-personal-website.sh</text>
+  <text x="137" y="483" fill="#69675f" font-family="Consolas, monospace" font-size="20"><tspan fill="#a33a2b">error:</tspan> developer distracted by another side project</text>
+  <text x="1106" y="573" fill="#69675f" font-family="Consolas, monospace" font-size="16" text-anchor="end">coming soon. probably.</text>
+</svg>
